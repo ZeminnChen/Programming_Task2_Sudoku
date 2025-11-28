@@ -138,7 +138,7 @@ for i in range(6):
         
         if board[i][j] != 0:
             e.insert(0, str(board[i][j]))
-            e.config(fg='black')  
+            e.config(fg='black', state='readonly') 
         row_entries.append(e)
     entries.append(row_entries)
 
